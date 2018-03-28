@@ -1,0 +1,33 @@
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>Login form</title>
+    </head>
+        
+    <body>
+        <h1>Log in</h1>
+        
+        <form method="POST" action="action_page.php">
+            <label for="usersfield">User</label> <br/>
+            <input type="text" name="username" placeholder="username"/> <br />
+            <label for="passfield">Password</label> <br/>
+            <input type="password" name="password" placeholder="password"/> <br />
+            Email:<input type="email" name="email_field"> <br/> 
+            Url<input type="url" name="url_field"> <br/> 
+            0<input type="range" name="range" min="0" max="100">100 <br/>
+            <input type="radio" name="gender" value="male" checked> Мъж<br/>
+            <input type="radio" name="gender" value="female"> Жена<br/>
+            <input type="file" name="someFile"> <br/>
+            <input type="date" name="date"> <br/>
+            <select name="selectField">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="opel" selected>Opel</option>
+                <option value="audi">Audi</option>
+            </select> 
+            <input type="hidden" value="Предварително зададено" name="hidden_field">
+            <input type="submit" value="Submit"/>
+        </form>
+        
+    </body>
+</html>
