@@ -1,1 +1,2 @@
-WWW Technologies @FMI laboratory example problems
+Laboratory 3
+PHP with MySQL introduction
